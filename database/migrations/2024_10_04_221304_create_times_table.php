@@ -18,6 +18,7 @@ class CreateTimesTable extends Migration
             $table->string('nome',100);
             $table->dateTime('data_inscricao');
             $table->timestamps();
+            $table->unique(['nome'], 'UNQ_0001');
         });
     }
 
