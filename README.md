@@ -1,7 +1,7 @@
 Após clonado o repositório tem alguns passos a ser considerados caso necessário:
 Ao executar algum comando, se der erro relacionado ao vendor/autoload.php, pode ser necessário instalar o composer:
 "composer install".
-Em seguida duplicar o .env.example e renomea-lo para .env, e caso der algum erro relacionado a "Warning: TTY mode is not supported on Windows platform.", deve ser necessário rodar "php artisan key:generate".
+Em seguida duplicar o .env.example e renomea-lo para .env, e deve ser necessário rodar "php artisan key:generate".
 
 O projeto está sendo rodado com o composer (php artisan serve), Laravel e MySQL;
 Para o início de sua execução, deve-se criar o banco de dados 'meu_campeonato', e após isso rodar o migrate.
